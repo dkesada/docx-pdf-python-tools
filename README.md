@@ -1,6 +1,6 @@
 # What are these scripts?
 
-I was asked by a friend of mine to help him create some tools for docx modification and pdf creation for bureaucratic work. Here are some simplified, barebone tools and experiments creating some docx and pdf conversors in Python. They can be easily modified for specific applications. In general, working with .docx files is a complete pain and working with .pdf files is mostly fine. The tools for .docx modification in Python require the user to either have installed Microsoft Word or LibreOffice Writer or use some proprietary Python package:
+I was asked by a friend of mine to help him create some tools for docx modification and pdf creation for bureaucratic work. Here are some simplified, barebone templates and experiments creating some docx and pdf conversors in Python. They can be easily modified for specific applications. In general, working with .docx files is a complete pain and working with .pdf files is mostly fine. The tools for .docx modification in Python require the user to either have installed Microsoft Word or LibreOffice Writer or use some proprietary Python package:
 
 * `pip install python-docx`: The python-docx is a very unintuitive package, but it gets the job done. If you try to get exact copies of the style and text of another .docx file, chances are you are getting a "mostly" similar output file with some obscure differences. Luckily, it does not requiere neither MS Word or LibreOffice Writer, so that (probably) makes it the most userful tool I tried for docx tinkering in Python.
 
